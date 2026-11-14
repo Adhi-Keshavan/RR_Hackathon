@@ -1,0 +1,52 @@
+{
+  "status": "PASS_WITH_SOURCE_WARNINGS",
+  "source_rows": {
+    "ball_by_ball": 200999,
+    "matches": 883,
+    "playing_eleven": 28381,
+    "competitions": 141,
+    "teams": 353,
+    "competition_team_player_mapping": 6413
+  },
+  "exact_duplicate_rows": {
+    "ball_by_ball": 0,
+    "matches": 0,
+    "playing_eleven": 0,
+    "competitions": 0,
+    "teams": 0,
+    "competition_team_player_mapping": 0
+  },
+  "deliveries_after_join": 200999,
+  "playing_eleven_rows_after_key_normalization": 28341,
+  "playing_eleven_repeated_key_rows_removed": 40,
+  "batting_order_conflict_keys": 35,
+  "innings": {
+    "innings_groups": 1724,
+    "one_innings_matches": 22,
+    "two_innings_matches": 839,
+    "super_over_matches": 6,
+    "maximum_over_ball_num": 13
+  },
+  "relationships": {
+    "role_coverage": {
+      "striker": {
+        "mapping_missing_rows": 0,
+        "playing_eleven_missing_rows": 83
+      },
+      "non_striker": {
+        "mapping_missing_rows": 0,
+        "playing_eleven_missing_rows": 98
+      },
+      "bowler": {
+        "mapping_missing_rows": 0,
+        "playing_eleven_missing_rows": 30
+      }
+    },
+    "roster_rows_missing_player_mapping": 5,
+    "same_batter_at_both_ends": 1,
+    "wickets_missing_dismissed_id": 1
+  },
+  "matches_without_deliveries": 16,
+  "legal_delivery_classification_unknown_rows": 265,
+  "legal_balls_before_unknown_rows": 9432
+}

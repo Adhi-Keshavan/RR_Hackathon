@@ -1,0 +1,17 @@
+# Official hackathon data and archives: keep out of Git until permissions are checked.
+data/*.csv
+*_data_pack/
+*data_pack.zip
+
+# Local Python tooling and caches.
+.venv/
+.deps/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated ranking and presentation artifacts.
+outputs/*.csv
+reports/*.pdf
+reports/statement_page-*.png

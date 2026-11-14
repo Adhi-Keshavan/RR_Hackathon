@@ -1,0 +1,1971 @@
+{
+  "ball_by_ball": {
+    "path": "data\\ball_by_ball.csv",
+    "rows": 200999,
+    "columns": [
+      "match_id",
+      "innings",
+      "overid",
+      "over_ball_num",
+      "innings_ball_num",
+      "batting_team_id",
+      "bowling_team_id",
+      "striker_id",
+      "striker_name",
+      "non_striker_id",
+      "non_striker_name",
+      "bowler_id",
+      "bowler_name",
+      "batting_type",
+      "bowling_type",
+      "batting_order",
+      "runs",
+      "is_four",
+      "is_six",
+      "is_wicket",
+      "dismissal_type_id",
+      "dismissal_type",
+      "dismissed_player_id",
+      "extras_type",
+      "extras1_runs",
+      "extras_2_runs",
+      "pace_or_spin",
+      "bowl_speed",
+      "stroke",
+      "delivery_style",
+      "over_or_around",
+      "on_or_off",
+      "delivery_ist_time"
+    ],
+    "dtypes": {
+      "match_id": "int64",
+      "innings": "int64",
+      "overid": "int64",
+      "over_ball_num": "int64",
+      "innings_ball_num": "int64",
+      "batting_team_id": "int64",
+      "bowling_team_id": "int64",
+      "striker_id": "int64",
+      "striker_name": "str",
+      "non_striker_id": "int64",
+      "non_striker_name": "str",
+      "bowler_id": "int64",
+      "bowler_name": "str",
+      "batting_type": "str",
+      "bowling_type": "str",
+      "batting_order": "int64",
+      "runs": "int64",
+      "is_four": "bool",
+      "is_six": "bool",
+      "is_wicket": "bool",
+      "dismissal_type_id": "float64",
+      "dismissal_type": "str",
+      "dismissed_player_id": "float64",
+      "extras_type": "str",
+      "extras1_runs": "int64",
+      "extras_2_runs": "int64",
+      "pace_or_spin": "str",
+      "bowl_speed": "float64",
+      "stroke": "str",
+      "delivery_style": "str",
+      "over_or_around": "str",
+      "on_or_off": "str",
+      "delivery_ist_time": "str"
+    },
+    "missing": {
+      "match_id": 0,
+      "innings": 0,
+      "overid": 0,
+      "over_ball_num": 0,
+      "innings_ball_num": 0,
+      "batting_team_id": 0,
+      "bowling_team_id": 0,
+      "striker_id": 0,
+      "striker_name": 0,
+      "non_striker_id": 0,
+      "non_striker_name": 0,
+      "bowler_id": 0,
+      "bowler_name": 0,
+      "batting_type": 0,
+      "bowling_type": 0,
+      "batting_order": 0,
+      "runs": 0,
+      "is_four": 0,
+      "is_six": 0,
+      "is_wicket": 0,
+      "dismissal_type_id": 190118,
+      "dismissal_type": 190118,
+      "dismissed_player_id": 190107,
+      "extras_type": 189167,
+      "extras1_runs": 0,
+      "extras_2_runs": 0,
+      "pace_or_spin": 0,
+      "bowl_speed": 0,
+      "stroke": 6158,
+      "delivery_style": 391,
+      "over_or_around": 407,
+      "on_or_off": 0,
+      "delivery_ist_time": 0
+    },
+    "distinct": {
+      "match_id": 867,
+      "innings": 4,
+      "overid": 20,
+      "over_ball_num": 13,
+      "innings_ball_num": 136,
+      "batting_team_id": 38,
+      "bowling_team_id": 38,
+      "striker_id": 888,
+      "striker_name": 885,
+      "non_striker_id": 867,
+      "non_striker_name": 864,
+      "bowler_id": 647,
+      "bowler_name": 646,
+      "batting_type": 2,
+      "bowling_type": 12,
+      "batting_order": 13,
+      "runs": 7,
+      "is_four": 2,
+      "is_six": 2,
+      "is_wicket": 2,
+      "dismissal_type_id": 8,
+      "dismissal_type": 9,
+      "dismissed_player_id": 814,
+      "extras_type": 6,
+      "extras1_runs": 7,
+      "extras_2_runs": 3,
+      "pace_or_spin": 2,
+      "bowl_speed": 1033,
+      "stroke": 30,
+      "delivery_style": 34,
+      "over_or_around": 2,
+      "on_or_off": 2,
+      "delivery_ist_time": 200826
+    },
+    "duplicate_rows": 0
+  },
+  "matches": {
+    "path": "data\\matches.csv",
+    "rows": 883,
+    "columns": [
+      "match_id",
+      "comp_id",
+      "match_number",
+      "match_date",
+      "stage",
+      "venue_id",
+      "venue_country",
+      "home_team_id",
+      "home_team",
+      "away_team_id",
+      "away_team",
+      "home_team_captain_id",
+      "away_team_captain_id",
+      "toss_win_team_id",
+      "toss_opted",
+      "man_of_the_match",
+      "first_inn_revised_overs",
+      "second_inn_revised_overs",
+      "revised_target",
+      "knock_out",
+      "win_team_id",
+      "result"
+    ],
+    "dtypes": {
+      "match_id": "int64",
+      "comp_id": "int64",
+      "match_number": "int64",
+      "match_date": "str",
+      "stage": "str",
+      "venue_id": "int64",
+      "venue_country": "str",
+      "home_team_id": "int64",
+      "home_team": "str",
+      "away_team_id": "int64",
+      "away_team": "str",
+      "home_team_captain_id": "float64",
+      "away_team_captain_id": "float64",
+      "toss_win_team_id": "float64",
+      "toss_opted": "str",
+      "man_of_the_match": "int64",
+      "first_inn_revised_overs": "float64",
+      "second_inn_revised_overs": "float64",
+      "revised_target": "float64",
+      "knock_out": "int64",
+      "win_team_id": "float64",
+      "result": "str"
+    },
+    "missing": {
+      "match_id": 0,
+      "comp_id": 0,
+      "match_number": 0,
+      "match_date": 0,
+      "stage": 0,
+      "venue_id": 0,
+      "venue_country": 0,
+      "home_team_id": 0,
+      "home_team": 0,
+      "away_team_id": 0,
+      "away_team": 0,
+      "home_team_captain_id": 44,
+      "away_team_captain_id": 45,
+      "toss_win_team_id": 15,
+      "toss_opted": 15,
+      "man_of_the_match": 0,
+      "first_inn_revised_overs": 858,
+      "second_inn_revised_overs": 858,
+      "revised_target": 860,
+      "knock_out": 0,
+      "win_team_id": 41,
+      "result": 0
+    },
+    "distinct": {
+      "match_id": 883,
+      "comp_id": 138,
+      "match_number": 75,
+      "match_date": 686,
+      "stage": 7,
+      "venue_id": 98,
+      "venue_country": 17,
+      "home_team_id": 36,
+      "home_team": 36,
+      "away_team_id": 36,
+      "away_team": 36,
+      "home_team_captain_id": 89,
+      "away_team_captain_id": 98,
+      "toss_win_team_id": 37,
+      "toss_opted": 2,
+      "man_of_the_match": 293,
+      "first_inn_revised_overs": 13,
+      "second_inn_revised_overs": 12,
+      "revised_target": 23,
+      "knock_out": 2,
+      "win_team_id": 36,
+      "result": 670
+    },
+    "duplicate_rows": 0
+  },
+  "playing_eleven": {
+    "path": "6af3166e7b922_data_pack\\playing_eleven.csv",
+    "rows": 28381,
+    "columns": [
+      "match_id",
+      "team_id",
+      "player_id",
+      "batting_order",
+      "is_played",
+      "is_captain",
+      "is_wk",
+      "is_impact",
+      "is_impact_off"
+    ],
+    "dtypes": {
+      "match_id": "int64",
+      "team_id": "int64",
+      "player_id": "int64",
+      "batting_order": "float64",
+      "is_played": "bool",
+      "is_captain": "object",
+      "is_wk": "object",
+      "is_impact": "int64",
+      "is_impact_off": "int64"
+    },
+    "missing": {
+      "match_id": 0,
+      "team_id": 0,
+      "player_id": 0,
+      "batting_order": 8678,
+      "is_played": 0,
+      "is_captain": 8667,
+      "is_wk": 8667,
+      "is_impact": 0,
+      "is_impact_off": 0
+    },
+    "distinct": {
+      "match_id": 880,
+      "team_id": 38,
+      "player_id": 1082,
+      "batting_order": 13,
+      "is_played": 2,
+      "is_captain": 2,
+      "is_wk": 2,
+      "is_impact": 2,
+      "is_impact_off": 2
+    },
+    "duplicate_rows": 0
+  },
+  "competitions": {
+    "path": "6af3166e7b922_data_pack\\competitions.csv",
+    "rows": 141,
+    "columns": [
+      "comp_id",
+      "comp_name",
+      "match_format",
+      "season"
+    ],
+    "dtypes": {
+      "comp_id": "int64",
+      "comp_name": "str",
+      "match_format": "str",
+      "season": "str"
+    },
+    "missing": {
+      "comp_id": 0,
+      "comp_name": 0,
+      "match_format": 0,
+      "season": 0
+    },
+    "distinct": {
+      "comp_id": 141,
+      "comp_name": 141,
+      "match_format": 2,
+      "season": 8
+    },
+    "duplicate_rows": 0
+  },
+  "teams": {
+    "path": "6af3166e7b922_data_pack\\teams.csv",
+    "rows": 353,
+    "columns": [
+      "comp_id",
+      "team_id",
+      "team_name"
+    ],
+    "dtypes": {
+      "comp_id": "int64",
+      "team_id": "int64",
+      "team_name": "str"
+    },
+    "missing": {
+      "comp_id": 0,
+      "team_id": 0,
+      "team_name": 0
+    },
+    "distinct": {
+      "comp_id": 141,
+      "team_id": 38,
+      "team_name": 38
+    },
+    "duplicate_rows": 0
+  },
+  "competition_team_player_mapping": {
+    "path": "6af3166e7b922_data_pack\\competition_team_player_mapping.csv",
+    "rows": 6413,
+    "columns": [
+      "comp_id",
+      "comp_name",
+      "team_id",
+      "team_name",
+      "player_id",
+      "player_name"
+    ],
+    "dtypes": {
+      "comp_id": "int64",
+      "comp_name": "str",
+      "team_id": "int64",
+      "team_name": "str",
+      "player_id": "int64",
+      "player_name": "str"
+    },
+    "missing": {
+      "comp_id": 0,
+      "comp_name": 0,
+      "team_id": 0,
+      "team_name": 0,
+      "player_id": 0,
+      "player_name": 0
+    },
+    "distinct": {
+      "comp_id": 140,
+      "comp_name": 140,
+      "team_id": 38,
+      "team_name": 38,
+      "player_id": 1217,
+      "player_name": 1210
+    },
+    "duplicate_rows": 0
+  },
+  "diagnostics": {
+    "keys": {
+      "matches_match_id_duplicates": 0,
+      "competitions_comp_id_duplicates": 0,
+      "teams_comp_team_duplicates": 0,
+      "playing_match_team_player_duplicates": 40,
+      "mapping_comp_team_player_duplicates": 0,
+      "ball_match_innings_innings_ball_duplicates": 0,
+      "ball_match_innings_over_ball_duplicates": 0
+    },
+    "coverage": {
+      "delivery_matches": 867,
+      "deliveries_per_match_p10_p50_p90": [
+        200.0,
+        244.0,
+        254.0
+      ],
+      "matches_without_deliveries": [
+        31281,
+        31284,
+        31288,
+        32610,
+        32612,
+        32622,
+        36210,
+        36564,
+        38797,
+        40761,
+        41502,
+        41503,
+        42030,
+        46008,
+        48513,
+        50189
+      ],
+      "delivery_matches_without_metadata": [],
+      "matches_without_competition": 0,
+      "delivery_rows_without_match": 0,
+      "ball_team_not_in_match": 0,
+      "batting_team_rows_absent_from_teams": 0,
+      "bowling_team_rows_absent_from_teams": 0,
+      "role_checks": {
+        "striker": {
+          "rows_absent_from_playing_eleven": 83,
+          "rows_absent_from_competition_mapping": 0
+        },
+        "non_striker": {
+          "rows_absent_from_playing_eleven": 98,
+          "rows_absent_from_competition_mapping": 0
+        },
+        "bowler": {
+          "rows_absent_from_playing_eleven": 30,
+          "rows_absent_from_competition_mapping": 0
+        }
+      },
+      "match_year_counts": {
+        "2022": 180,
+        "2023": 140,
+        "2024": 200,
+        "2025": 217,
+        "2026": 146
+      },
+      "delivery_match_year_counts": {
+        "2022": 180,
+        "2023": 140,
+        "2024": 192,
+        "2025": 211,
+        "2026": 144
+      },
+      "match_date_min": "2022-01-22",
+      "match_date_max": "2026-11-01",
+      "delivery_time_min": "2022-01-23 00:00:00 UTC",
+      "delivery_time_max": "2026-11-01 16:50:46 UTC",
+      "match_formats": {
+        "T20I": 482,
+        "T20": 401
+      },
+      "delivery_formats": {
+        "T20I": 106327,
+        "T20": 94672
+      },
+      "non_ipl_t20_delivery_rows": 6985,
+      "non_ipl_t20_matches": 30,
+      "non_ipl_t20_competitions": [
+        "Mens T20 Emerging Teams Asia Cup 2024",
+        "Asia Cup Rising Stars 2025"
+      ],
+      "comp_seasons": {
+        "2022": 25,
+        "2022/23": 3,
+        "2023": 20,
+        "2023/24": 1,
+        "2024": 33,
+        "2024/25": 1,
+        "2025": 33,
+        "2026": 25
+      },
+      "match_stages": {
+        "League": 620,
+        "Others": 226,
+        "Final": 12,
+        "Qualifier": 10,
+        "Super 4": 6,
+        "Eliminator": 5,
+        "Semi Final": 4
+      },
+      "innings": {
+        "1": 105727,
+        "2": 95234,
+        "3": 25,
+        "4": 13
+      },
+      "matches_by_competition": "{(2725, 'IPL 2025', 'T20'): 75, (1358, 'IPL 2022', 'T20'): 74, (2193, 'IPL 2024', 'T20'): 74, (3298, 'IPL 2026', 'T20'): 74, (1715, 'IPL 2023', 'T20'): 74, (3133, 'Asia Cup 2025', 'T20I'): 19, (2670, 'Mens T20 Emerging Teams Asia Cup 2024', 'T20'): 15, (3289, 'Asia Cup Rising Stars 2025', 'T20'): 15, (1533, 'Mens Twenty20 Asia Cup 2022', 'T20I'): 13, (1595, 'England in Pakistan T20I Series 2022', 'T20I'): 7, (3288, 'Pakistan T20I Tri-Series 2025', 'T20I'): 7, (3159, 'United Arab Emirates T20I Tri-Series 2025', 'T20I'): 7}",
+      "competition_coverage": [
+        {
+          "comp_id": 1358,
+          "comp_name": "IPL 2022",
+          "match_format": "T20",
+          "season": "2022",
+          "matches": 74,
+          "first_match": "2022-03-26",
+          "last_match": "2022-05-29",
+          "delivery_rows": 17909
+        },
+        {
+          "comp_id": 1715,
+          "comp_name": "IPL 2023",
+          "match_format": "T20",
+          "season": "2023",
+          "matches": 74,
+          "first_match": "2023-03-31",
+          "last_match": "2023-05-29",
+          "delivery_rows": 17863
+        },
+        {
+          "comp_id": 2193,
+          "comp_name": "IPL 2024",
+          "match_format": "T20",
+          "season": "2024",
+          "matches": 74,
+          "first_match": "2024-03-22",
+          "last_match": "2024-05-26",
+          "delivery_rows": 17103
+        },
+        {
+          "comp_id": 2670,
+          "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+          "match_format": "T20",
+          "season": "2024",
+          "matches": 15,
+          "first_match": "2024-10-18",
+          "last_match": "2024-10-27",
+          "delivery_rows": 3519
+        },
+        {
+          "comp_id": 3289,
+          "comp_name": "Asia Cup Rising Stars 2025",
+          "match_format": "T20",
+          "season": "2025",
+          "matches": 15,
+          "first_match": "2025-11-14",
+          "last_match": "2025-11-23",
+          "delivery_rows": 3466
+        },
+        {
+          "comp_id": 2725,
+          "comp_name": "IPL 2025",
+          "match_format": "T20",
+          "season": "2025",
+          "matches": 75,
+          "first_match": "2025-03-22",
+          "last_match": "2025-06-03",
+          "delivery_rows": 17285
+        },
+        {
+          "comp_id": 3298,
+          "comp_name": "IPL 2026",
+          "match_format": "T20",
+          "season": "2026",
+          "matches": 74,
+          "first_match": "2026-03-28",
+          "last_match": "2026-05-31",
+          "delivery_rows": 17527
+        },
+        {
+          "comp_id": 1543,
+          "comp_name": "Afghanistan in Ireland T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 5,
+          "first_match": "2022-08-09",
+          "last_match": "2022-08-17",
+          "delivery_rows": 1017
+        },
+        {
+          "comp_id": 1458,
+          "comp_name": "Afghanistan in Zimbabwe T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-06-11",
+          "last_match": "2022-06-14",
+          "delivery_rows": 756
+        },
+        {
+          "comp_id": 1551,
+          "comp_name": "Asia Cup T20 Qualifiers 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 6,
+          "first_match": "2022-08-20",
+          "last_match": "2022-08-24",
+          "delivery_rows": 1379
+        },
+        {
+          "comp_id": 1584,
+          "comp_name": "Australia in India T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-09-20",
+          "last_match": "2022-09-25",
+          "delivery_rows": 590
+        },
+        {
+          "comp_id": 1435,
+          "comp_name": "Australia in Sri Lanka T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-06-07",
+          "last_match": "2022-06-11",
+          "delivery_rows": 684
+        },
+        {
+          "comp_id": 1601,
+          "comp_name": "Bangladesh in United Arab Emirates T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 2,
+          "first_match": "2022-09-25",
+          "last_match": "2022-09-27",
+          "delivery_rows": 496
+        },
+        {
+          "comp_id": 1452,
+          "comp_name": "Bangladesh in West Indies T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-07-02",
+          "last_match": "2022-07-07",
+          "delivery_rows": 587
+        },
+        {
+          "comp_id": 1523,
+          "comp_name": "Bangladesh in Zimbabwe T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-07-30",
+          "last_match": "2022-08-02",
+          "delivery_rows": 736
+        },
+        {
+          "comp_id": 1611,
+          "comp_name": "England in Australia T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-10-09",
+          "last_match": "2022-10-14",
+          "delivery_rows": 609
+        },
+        {
+          "comp_id": 1595,
+          "comp_name": "England in Pakistan T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 7,
+          "first_match": "2022-09-20",
+          "last_match": "2022-10-02",
+          "delivery_rows": 1678
+        },
+        {
+          "comp_id": 1331,
+          "comp_name": "England in West Indies T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 5,
+          "first_match": "2022-01-22",
+          "last_match": "2022-01-30",
+          "delivery_rows": 1235
+        },
+        {
+          "comp_id": 1494,
+          "comp_name": "India in England T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-07-07",
+          "last_match": "2022-07-10",
+          "delivery_rows": 733
+        },
+        {
+          "comp_id": 1474,
+          "comp_name": "India in Ireland T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 2,
+          "first_match": "2022-06-26",
+          "last_match": "2022-06-28",
+          "delivery_rows": 399
+        },
+        {
+          "comp_id": 1499,
+          "comp_name": "India in West Indies T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 5,
+          "first_match": "2022-07-29",
+          "last_match": "2022-08-07",
+          "delivery_rows": 1212
+        },
+        {
+          "comp_id": 1533,
+          "comp_name": "Mens Twenty20 Asia Cup 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 13,
+          "first_match": "2022-08-27",
+          "last_match": "2022-09-11",
+          "delivery_rows": 3071
+        },
+        {
+          "comp_id": 1512,
+          "comp_name": "New Zealand in Ireland T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-07-18",
+          "last_match": "2022-07-22",
+          "delivery_rows": 696
+        },
+        {
+          "comp_id": 1534,
+          "comp_name": "New Zealand in Netherlands T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 2,
+          "first_match": "2022-08-04",
+          "last_match": "2022-08-05",
+          "delivery_rows": 456
+        },
+        {
+          "comp_id": 1537,
+          "comp_name": "New Zealand in West Indies T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-08-11",
+          "last_match": "2022-08-15",
+          "delivery_rows": 740
+        },
+        {
+          "comp_id": 1517,
+          "comp_name": "South Africa in England T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-07-27",
+          "last_match": "2022-07-31",
+          "delivery_rows": 711
+        },
+        {
+          "comp_id": 1439,
+          "comp_name": "South Africa in India T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 5,
+          "first_match": "2022-06-09",
+          "last_match": "2022-06-19",
+          "delivery_rows": 972
+        },
+        {
+          "comp_id": 1531,
+          "comp_name": "South Africa vs Ireland T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 2,
+          "first_match": "2022-08-03",
+          "last_match": "2022-08-05",
+          "delivery_rows": 501
+        },
+        {
+          "comp_id": 1345,
+          "comp_name": "Sri Lanka in Australia T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 5,
+          "first_match": "2022-02-11",
+          "last_match": "2022-02-20",
+          "delivery_rows": 1201
+        },
+        {
+          "comp_id": 1603,
+          "comp_name": "West Indies in Australia T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 2,
+          "first_match": "2022-10-05",
+          "last_match": "2022-10-07",
+          "delivery_rows": 504
+        },
+        {
+          "comp_id": 1335,
+          "comp_name": "West Indies in India T20I Series 2022",
+          "match_format": "T20I",
+          "season": "2022",
+          "matches": 3,
+          "first_match": "2022-02-16",
+          "last_match": "2022-02-20",
+          "delivery_rows": 755
+        },
+        {
+          "comp_id": 1646,
+          "comp_name": "India in New Zealand T20I Series 2022/23",
+          "match_format": "T20I",
+          "season": "2022/23",
+          "matches": 2,
+          "first_match": "2022-11-20",
+          "last_match": "2022-11-22",
+          "delivery_rows": 420
+        },
+        {
+          "comp_id": 1608,
+          "comp_name": "New Zealand T20I Tri Series 2022/23",
+          "match_format": "T20I",
+          "season": "2022/23",
+          "matches": 7,
+          "first_match": "2022-10-07",
+          "last_match": "2022-10-14",
+          "delivery_rows": 1682
+        },
+        {
+          "comp_id": 1599,
+          "comp_name": "South Africa in India T20I Series 2022/23",
+          "match_format": "T20I",
+          "season": "2022/23",
+          "matches": 3,
+          "first_match": "2022-09-28",
+          "last_match": "2022-10-04",
+          "delivery_rows": 736
+        },
+        {
+          "comp_id": 1885,
+          "comp_name": "Afghanistan in Bangladesh T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 2,
+          "first_match": "2023-07-14",
+          "last_match": "2023-07-16",
+          "delivery_rows": 457
+        },
+        {
+          "comp_id": 1792,
+          "comp_name": "Afghanistan v Pakistan T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-03-24",
+          "last_match": "2023-03-27",
+          "delivery_rows": 714
+        },
+        {
+          "comp_id": 2046,
+          "comp_name": "Australia in India T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 5,
+          "first_match": "2023-11-23",
+          "last_match": "2023-12-03",
+          "delivery_rows": 1271
+        },
+        {
+          "comp_id": 2000,
+          "comp_name": "Australia in South Africa T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-08-30",
+          "last_match": "2023-09-03",
+          "delivery_rows": 668
+        },
+        {
+          "comp_id": 2058,
+          "comp_name": "Bangladesh in New Zealand T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-12-27",
+          "last_match": "2023-12-31",
+          "delivery_rows": 519
+        },
+        {
+          "comp_id": 1742,
+          "comp_name": "England in Bangladesh T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-03-09",
+          "last_match": "2023-03-14",
+          "delivery_rows": 723
+        },
+        {
+          "comp_id": 2048,
+          "comp_name": "England in West Indies T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 5,
+          "first_match": "2023-12-13",
+          "last_match": "2023-12-22",
+          "delivery_rows": 1192
+        },
+        {
+          "comp_id": 1998,
+          "comp_name": "India in Ireland T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 2,
+          "first_match": "2023-08-18",
+          "last_match": "2023-08-20",
+          "delivery_rows": 421
+        },
+        {
+          "comp_id": 2047,
+          "comp_name": "India in South Africa T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 2,
+          "first_match": "2023-12-12",
+          "last_match": "2023-12-14",
+          "delivery_rows": 418
+        },
+        {
+          "comp_id": 1913,
+          "comp_name": "India in West Indies T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 5,
+          "first_match": "2023-08-03",
+          "last_match": "2023-08-13",
+          "delivery_rows": 1195
+        },
+        {
+          "comp_id": 1769,
+          "comp_name": "Ireland in Bangladesh T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-03-27",
+          "last_match": "2023-03-31",
+          "delivery_rows": 593
+        },
+        {
+          "comp_id": 1709,
+          "comp_name": "Ireland in Zimbabwe T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-01-12",
+          "last_match": "2023-01-15",
+          "delivery_rows": 715
+        },
+        {
+          "comp_id": 1999,
+          "comp_name": "New Zealand in England T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 4,
+          "first_match": "2023-08-30",
+          "last_match": "2023-09-05",
+          "delivery_rows": 895
+        },
+        {
+          "comp_id": 1700,
+          "comp_name": "New Zealand in India T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-01-27",
+          "last_match": "2023-02-01",
+          "delivery_rows": 701
+        },
+        {
+          "comp_id": 1799,
+          "comp_name": "New Zealand in Pakistan T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 5,
+          "first_match": "2023-04-14",
+          "last_match": "2023-04-24",
+          "delivery_rows": 1082
+        },
+        {
+          "comp_id": 1997,
+          "comp_name": "New Zealand in United Arab Emirates T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-08-17",
+          "last_match": "2023-08-20",
+          "delivery_rows": 718
+        },
+        {
+          "comp_id": 1698,
+          "comp_name": "Sri Lanka in India T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-01-03",
+          "last_match": "2023-01-07",
+          "delivery_rows": 741
+        },
+        {
+          "comp_id": 1719,
+          "comp_name": "Sri Lanka in New Zealand T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-04-02",
+          "last_match": "2023-04-08",
+          "delivery_rows": 717
+        },
+        {
+          "comp_id": 1718,
+          "comp_name": "West Indies in South Africa T20I Series 2023",
+          "match_format": "T20I",
+          "season": "2023",
+          "matches": 3,
+          "first_match": "2023-03-25",
+          "last_match": "2023-03-28",
+          "delivery_rows": 646
+        },
+        {
+          "comp_id": 2188,
+          "comp_name": "Ireland in Zimbabwe T20I Series 2023/24",
+          "match_format": "T20I",
+          "season": "2023/24",
+          "matches": 3,
+          "first_match": "2023-12-07",
+          "last_match": "2023-12-10",
+          "delivery_rows": 739
+        },
+        {
+          "comp_id": 2059,
+          "comp_name": "Afghanistan in India T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-01-11",
+          "last_match": "2024-01-17",
+          "delivery_rows": 712
+        },
+        {
+          "comp_id": 2267,
+          "comp_name": "Afghanistan in Sri Lanka T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-02-17",
+          "last_match": "2024-02-21",
+          "delivery_rows": 727
+        },
+        {
+          "comp_id": 2753,
+          "comp_name": "Afghanistan in Zimbabwe T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-12-09",
+          "last_match": "2024-12-12",
+          "delivery_rows": 740
+        },
+        {
+          "comp_id": 2269,
+          "comp_name": "Afghanistan v Ireland T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-03-15",
+          "last_match": "2024-03-18",
+          "delivery_rows": 723
+        },
+        {
+          "comp_id": 2548,
+          "comp_name": "Australia in England T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-09-11",
+          "last_match": "2024-09-15",
+          "delivery_rows": 489
+        },
+        {
+          "comp_id": 2062,
+          "comp_name": "Australia in New Zealand T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-02-21",
+          "last_match": "2024-02-25",
+          "delivery_rows": 618
+        },
+        {
+          "comp_id": 2561,
+          "comp_name": "Australia in Scotland T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-09-04",
+          "last_match": "2024-09-07",
+          "delivery_rows": 635
+        },
+        {
+          "comp_id": 2512,
+          "comp_name": "Bangladesh in India T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-10-06",
+          "last_match": "2024-10-12",
+          "delivery_rows": 694
+        },
+        {
+          "comp_id": 2457,
+          "comp_name": "Bangladesh in West Indies T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-12-16",
+          "last_match": "2024-12-20",
+          "delivery_rows": 718
+        },
+        {
+          "comp_id": 2455,
+          "comp_name": "England in West Indies T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 5,
+          "first_match": "2024-11-10",
+          "last_match": "2024-11-18",
+          "delivery_rows": 973
+        },
+        {
+          "comp_id": 2718,
+          "comp_name": "India in South Africa T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 4,
+          "first_match": "2024-11-08",
+          "last_match": "2024-11-15",
+          "delivery_rows": 990
+        },
+        {
+          "comp_id": 2542,
+          "comp_name": "India in Sri Lanka T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-07-27",
+          "last_match": "2024-07-30",
+          "delivery_rows": 667
+        },
+        {
+          "comp_id": 2372,
+          "comp_name": "India in Zimbabwe T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 5,
+          "first_match": "2024-07-06",
+          "last_match": "2024-07-14",
+          "delivery_rows": 1193
+        },
+        {
+          "comp_id": 2562,
+          "comp_name": "Ireland v South Africa T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 2,
+          "first_match": "2024-09-27",
+          "last_match": "2024-09-29",
+          "delivery_rows": 497
+        },
+        {
+          "comp_id": 2398,
+          "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 6,
+          "first_match": "2024-05-18",
+          "last_match": "2024-05-24",
+          "delivery_rows": 1191
+        },
+        {
+          "comp_id": 2605,
+          "comp_name": "Netherlands Tri-Nation T20I Series [Aug 2024] 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 6,
+          "first_match": "2024-08-23",
+          "last_match": "2024-08-28",
+          "delivery_rows": 1306
+        },
+        {
+          "comp_id": 2350,
+          "comp_name": "New Zealand in Pakistan T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 5,
+          "first_match": "2024-04-18",
+          "last_match": "2024-04-27",
+          "delivery_rows": 943
+        },
+        {
+          "comp_id": 2716,
+          "comp_name": "New Zealand in Sri Lanka T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 2,
+          "first_match": "2024-11-09",
+          "last_match": "2024-11-10",
+          "delivery_rows": 485
+        },
+        {
+          "comp_id": 2387,
+          "comp_name": "Pakistan in Australia T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-11-14",
+          "last_match": "2024-11-18",
+          "delivery_rows": 520
+        },
+        {
+          "comp_id": 2354,
+          "comp_name": "Pakistan in England T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 4,
+          "first_match": "2024-05-22",
+          "last_match": "2024-05-30",
+          "delivery_rows": 461
+        },
+        {
+          "comp_id": 2395,
+          "comp_name": "Pakistan in Ireland T20I series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-05-10",
+          "last_match": "2024-05-14",
+          "delivery_rows": 713
+        },
+        {
+          "comp_id": 2060,
+          "comp_name": "Pakistan in New Zealand T20I series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 5,
+          "first_match": "2024-01-12",
+          "last_match": "2024-01-21",
+          "delivery_rows": 1200
+        },
+        {
+          "comp_id": 2442,
+          "comp_name": "Pakistan in South Africa T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-12-10",
+          "last_match": "2024-12-14",
+          "delivery_rows": 506
+        },
+        {
+          "comp_id": 2722,
+          "comp_name": "Pakistan in Zimbabwe T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-12-01",
+          "last_match": "2024-12-05",
+          "delivery_rows": 574
+        },
+        {
+          "comp_id": 2453,
+          "comp_name": "South Africa in West Indies T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-08-24",
+          "last_match": "2024-08-28",
+          "delivery_rows": 629
+        },
+        {
+          "comp_id": 2452,
+          "comp_name": "South Africa in West Indies T20I Series [May 2024] 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-05-24",
+          "last_match": "2024-05-27",
+          "delivery_rows": 714
+        },
+        {
+          "comp_id": 2305,
+          "comp_name": "Sri Lanka in Bangladesh T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-03-04",
+          "last_match": "2024-03-09",
+          "delivery_rows": 751
+        },
+        {
+          "comp_id": 2061,
+          "comp_name": "West Indies in Australia T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-02-09",
+          "last_match": "2024-02-13",
+          "delivery_rows": 756
+        },
+        {
+          "comp_id": 2692,
+          "comp_name": "West Indies in Sri Lanka T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-10-13",
+          "last_match": "2024-10-17",
+          "delivery_rows": 705
+        },
+        {
+          "comp_id": 2371,
+          "comp_name": "Zimbabwe in Bangladesh T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 5,
+          "first_match": "2024-05-03",
+          "last_match": "2024-05-12",
+          "delivery_rows": 1198
+        },
+        {
+          "comp_id": 2229,
+          "comp_name": "Zimbabwe in Sri Lanka T20I Series 2024",
+          "match_format": "T20I",
+          "season": "2024",
+          "matches": 3,
+          "first_match": "2024-01-14",
+          "last_match": "2024-01-18",
+          "delivery_rows": 644
+        },
+        {
+          "comp_id": 2755,
+          "comp_name": "Sri Lanka in New Zealand T20I Series 2024/25",
+          "match_format": "T20I",
+          "season": "2024/25",
+          "matches": 3,
+          "first_match": "2024-12-28",
+          "last_match": "2025-01-02",
+          "delivery_rows": 754
+        },
+        {
+          "comp_id": 3254,
+          "comp_name": "Afghanistan in Zimbabwe T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-10-29",
+          "last_match": "2025-11-02",
+          "delivery_rows": 702
+        },
+        {
+          "comp_id": 3228,
+          "comp_name": "Afghanistan v Bangladesh T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-10-02",
+          "last_match": "2025-10-05",
+          "delivery_rows": 713
+        },
+        {
+          "comp_id": 3133,
+          "comp_name": "Asia Cup 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 19,
+          "first_match": "2025-09-09",
+          "last_match": "2025-09-28",
+          "delivery_rows": 4437
+        },
+        {
+          "comp_id": 3197,
+          "comp_name": "Australia in New Zealand T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-10-01",
+          "last_match": "2025-10-04",
+          "delivery_rows": 477
+        },
+        {
+          "comp_id": 2874,
+          "comp_name": "Australia in West Indies T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 5,
+          "first_match": "2025-07-20",
+          "last_match": "2025-07-28",
+          "delivery_rows": 1185
+        },
+        {
+          "comp_id": 2973,
+          "comp_name": "Bangladesh in Pakistan T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-05-28",
+          "last_match": "2025-06-01",
+          "delivery_rows": 712
+        },
+        {
+          "comp_id": 3020,
+          "comp_name": "Bangladesh in Sri Lanka T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-07-10",
+          "last_match": "2025-07-16",
+          "delivery_rows": 675
+        },
+        {
+          "comp_id": 2975,
+          "comp_name": "Bangladesh in United Arab Emirates T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-05-17",
+          "last_match": "2025-05-21",
+          "delivery_rows": 752
+        },
+        {
+          "comp_id": 2513,
+          "comp_name": "England in India T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 5,
+          "first_match": "2025-01-22",
+          "last_match": "2025-02-02",
+          "delivery_rows": 1131
+        },
+        {
+          "comp_id": 3174,
+          "comp_name": "England in Ireland T20I series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-09-17",
+          "last_match": "2025-09-21",
+          "delivery_rows": 467
+        },
+        {
+          "comp_id": 3226,
+          "comp_name": "England in New Zealand T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-10-18",
+          "last_match": "2025-10-23",
+          "delivery_rows": 391
+        },
+        {
+          "comp_id": 2915,
+          "comp_name": "India in Australia T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 5,
+          "first_match": "2025-10-29",
+          "last_match": "2025-11-08",
+          "delivery_rows": 758
+        },
+        {
+          "comp_id": 2940,
+          "comp_name": "India in Bangladesh T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 0,
+          "first_match": null,
+          "last_match": null,
+          "delivery_rows": 0
+        },
+        {
+          "comp_id": 3251,
+          "comp_name": "Ireland in Bangladesh T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-11-27",
+          "last_match": "2025-12-02",
+          "delivery_rows": 705
+        },
+        {
+          "comp_id": 2801,
+          "comp_name": "Ireland in Zimbabwe T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-02-22",
+          "last_match": "2025-02-25",
+          "delivery_rows": 412
+        },
+        {
+          "comp_id": 3190,
+          "comp_name": "Nepal v West Indies T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-09-27",
+          "last_match": "2025-09-30",
+          "delivery_rows": 689
+        },
+        {
+          "comp_id": 3163,
+          "comp_name": "Netherlands in Bangladesh T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-08-30",
+          "last_match": "2025-09-03",
+          "delivery_rows": 516
+        },
+        {
+          "comp_id": 3288,
+          "comp_name": "Pakistan T20I Tri-Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 7,
+          "first_match": "2025-11-17",
+          "last_match": "2025-11-29",
+          "delivery_rows": 1665
+        },
+        {
+          "comp_id": 3074,
+          "comp_name": "Pakistan in Bangladesh T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-07-20",
+          "last_match": "2025-07-24",
+          "delivery_rows": 690
+        },
+        {
+          "comp_id": 2793,
+          "comp_name": "Pakistan in New Zealand T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 5,
+          "first_match": "2025-03-16",
+          "last_match": "2025-03-26",
+          "delivery_rows": 1000
+        },
+        {
+          "comp_id": 2875,
+          "comp_name": "Pakistan in West Indies T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-07-31",
+          "last_match": "2025-08-03",
+          "delivery_rows": 763
+        },
+        {
+          "comp_id": 2912,
+          "comp_name": "South Africa in Australia T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-08-10",
+          "last_match": "2025-08-16",
+          "delivery_rows": 739
+        },
+        {
+          "comp_id": 2628,
+          "comp_name": "South Africa in England T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-09-10",
+          "last_match": "2025-09-14",
+          "delivery_rows": 312
+        },
+        {
+          "comp_id": 2921,
+          "comp_name": "South Africa in India T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 5,
+          "first_match": "2025-12-09",
+          "last_match": "2025-12-19",
+          "delivery_rows": 925
+        },
+        {
+          "comp_id": 3223,
+          "comp_name": "South Africa in Pakistan T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-10-28",
+          "last_match": "2025-11-01",
+          "delivery_rows": 693
+        },
+        {
+          "comp_id": 3162,
+          "comp_name": "Sri Lanka in Zimbabwe T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-09-03",
+          "last_match": "2025-09-07",
+          "delivery_rows": 679
+        },
+        {
+          "comp_id": 3159,
+          "comp_name": "United Arab Emirates T20I Tri-Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 7,
+          "first_match": "2025-08-29",
+          "last_match": "2025-09-07",
+          "delivery_rows": 1721
+        },
+        {
+          "comp_id": 3241,
+          "comp_name": "West Indies in Bangladesh T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-10-27",
+          "last_match": "2025-11-01",
+          "delivery_rows": 722
+        },
+        {
+          "comp_id": 2626,
+          "comp_name": "West Indies in England T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-06-06",
+          "last_match": "2025-06-10",
+          "delivery_rows": 764
+        },
+        {
+          "comp_id": 2873,
+          "comp_name": "West Indies in Ireland T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 3,
+          "first_match": "2025-06-12",
+          "last_match": "2025-06-15",
+          "delivery_rows": 257
+        },
+        {
+          "comp_id": 3282,
+          "comp_name": "West Indies in New Zealand T20I Series 2025",
+          "match_format": "T20I",
+          "season": "2025",
+          "matches": 5,
+          "first_match": "2025-11-05",
+          "last_match": "2025-11-13",
+          "delivery_rows": 1009
+        },
+        {
+          "comp_id": 3405,
+          "comp_name": "Afghanistan v Sri Lanka T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 0,
+          "first_match": null,
+          "last_match": null,
+          "delivery_rows": 0
+        },
+        {
+          "comp_id": 3331,
+          "comp_name": "Afghanistan v West Indies T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-01-19",
+          "last_match": "2026-01-22",
+          "delivery_rows": 742
+        },
+        {
+          "comp_id": 3787,
+          "comp_name": "Afghanistan v Zimbabwe T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-10-27",
+          "last_match": "2026-11-01",
+          "delivery_rows": 649
+        },
+        {
+          "comp_id": 3713,
+          "comp_name": "Afghanistan vs India in India T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-09-13",
+          "last_match": "2026-09-17",
+          "delivery_rows": 640
+        },
+        {
+          "comp_id": 3482,
+          "comp_name": "Australia in Bangladesh T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-06-17",
+          "last_match": "2026-06-21",
+          "delivery_rows": 669
+        },
+        {
+          "comp_id": 3358,
+          "comp_name": "Australia in Pakistan T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-01-29",
+          "last_match": "2026-02-01",
+          "delivery_rows": 694
+        },
+        {
+          "comp_id": 3568,
+          "comp_name": "Bangladesh in Zimbabwe T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-07-15",
+          "last_match": "2026-07-19",
+          "delivery_rows": 738
+        },
+        {
+          "comp_id": 3334,
+          "comp_name": "England in Sri Lanka T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-01-30",
+          "last_match": "2026-02-03",
+          "delivery_rows": 668
+        },
+        {
+          "comp_id": 3126,
+          "comp_name": "India in England T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 5,
+          "first_match": "2026-07-01",
+          "last_match": "2026-07-11",
+          "delivery_rows": 1032
+        },
+        {
+          "comp_id": 3446,
+          "comp_name": "India in Ireland T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 2,
+          "first_match": "2026-06-26",
+          "last_match": "2026-06-28",
+          "delivery_rows": 496
+        },
+        {
+          "comp_id": 3739,
+          "comp_name": "India in Japan T20I Match 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 1,
+          "first_match": "2026-09-22",
+          "last_match": "2026-09-22",
+          "delivery_rows": 64
+        },
+        {
+          "comp_id": 3690,
+          "comp_name": "India in New Zealand T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 5,
+          "first_match": "2026-10-22",
+          "last_match": "2026-11-01",
+          "delivery_rows": 1209
+        },
+        {
+          "comp_id": 3465,
+          "comp_name": "India in Zimbabwe T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-07-23",
+          "last_match": "2026-07-26",
+          "delivery_rows": 710
+        },
+        {
+          "comp_id": 3313,
+          "comp_name": "Ireland in United Arab Emirates T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 2,
+          "first_match": "2026-01-29",
+          "last_match": "2026-01-31",
+          "delivery_rows": 494
+        },
+        {
+          "comp_id": 3433,
+          "comp_name": "New Zealand in Bangladesh T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-04-27",
+          "last_match": "2026-05-02",
+          "delivery_rows": 402
+        },
+        {
+          "comp_id": 3329,
+          "comp_name": "New Zealand in India T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 5,
+          "first_match": "2026-01-21",
+          "last_match": "2026-01-31",
+          "delivery_rows": 1148
+        },
+        {
+          "comp_id": 3317,
+          "comp_name": "Pakistan in Sri Lanka T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-01-07",
+          "last_match": "2026-01-12",
+          "delivery_rows": 376
+        },
+        {
+          "comp_id": 3395,
+          "comp_name": "South Africa in New Zealand T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 5,
+          "first_match": "2026-03-15",
+          "last_match": "2026-03-25",
+          "delivery_rows": 1134
+        },
+        {
+          "comp_id": 3128,
+          "comp_name": "Sri Lanka in England T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-09-15",
+          "last_match": "2026-09-19",
+          "delivery_rows": 632
+        },
+        {
+          "comp_id": 3765,
+          "comp_name": "Sri Lanka in Pakistan T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-10-09",
+          "last_match": "2026-10-13",
+          "delivery_rows": 718
+        },
+        {
+          "comp_id": 3464,
+          "comp_name": "Sri Lanka in West Indies T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-06-12",
+          "last_match": "2026-06-15",
+          "delivery_rows": 734
+        },
+        {
+          "comp_id": 3473,
+          "comp_name": "United Arab Emirates in Nepal T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 0,
+          "first_match": null,
+          "last_match": null,
+          "delivery_rows": 0
+        },
+        {
+          "comp_id": 3450,
+          "comp_name": "West Indies in India T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 5,
+          "first_match": "2026-10-06",
+          "last_match": "2026-10-17",
+          "delivery_rows": 1014
+        },
+        {
+          "comp_id": 2906,
+          "comp_name": "West Indies in South Africa T20I Series 2026",
+          "match_format": "T20I",
+          "season": "2026",
+          "matches": 3,
+          "first_match": "2026-01-27",
+          "last_match": "2026-02-01",
+          "delivery_rows": 596
+        }
+      ]
+    },
+    "delivery_fields": {
+      "extras_type": {
+        "NaN": 189167,
+        "wide": 7714,
+        "legbyes": 2748,
+        "Overstep": 576,
+        "byes": 529,
+        "other": 264,
+        "Penalty": 1
+      },
+      "extras1_runs": {
+        "1": 576,
+        "2": 7714,
+        "3": 2748,
+        "4": 529,
+        "5": 264,
+        "6": 189167,
+        "7": 1
+      },
+      "extras_2_runs": {
+        "0": 200963,
+        "1": 20,
+        "4": 16
+      },
+      "runs": {
+        "0": 79387,
+        "1": 72267,
+        "2": 12547,
+        "3": 656,
+        "4": 23303,
+        "5": 25,
+        "6": 12814
+      },
+      "dismissal_type": {
+        "NaN": 190118,
+        "Caught": 7557,
+        "Bowled": 1775,
+        "LBW": 709,
+        "RunOut": 600,
+        "Stump": 214,
+        "Hit Wicket": 17,
+        "Retire Out": 6,
+        "Obstracting the field": 2,
+        "Obstructing the field": 1
+      },
+      "wicket_true": 10881,
+      "wicket_without_dismissal": 0,
+      "dismissal_without_wicket": 0,
+      "is_four_runs": "{0: {False: 79387, True: 0}, 1: {False: 72267, True: 0}, 2: {False: 12547, True: 0}, 3: {False: 656, True: 0}, 4: {False: 20, True: 23283}, 5: {False: 25, True: 0}, 6: {False: 12814, True: 0}}",
+      "is_six_runs": "{0: {False: 79387, True: 0}, 1: {False: 72267, True: 0}, 2: {False: 12547, True: 0}, 3: {False: 656, True: 0}, 4: {False: 23303, True: 0}, 5: {False: 25, True: 0}, 6: {False: 3, True: 12811}}",
+      "extras_by_type": "{('runs', 'min'): {'Overstep': 0, 'Penalty': 0, 'byes': 0, 'legbyes': 0, 'other': 0, 'wide': 0, nan: 0}, ('runs', 'max'): {'Overstep': 6, 'Penalty': 0, 'byes': 0, 'legbyes': 1, 'other': 6, 'wide': 0, nan: 6}, ('runs', 'mean'): {'Overstep': 1.479, 'Penalty': 0.0, 'byes': 0.0, 'legbyes': 0.0, 'other': 1.561, 'wide': 0.0, nan: 1.418}, ('extras1_runs', 'min'): {'Overstep': 1, 'Penalty': 7, 'byes': 4, 'legbyes': 3, 'other': 5, 'wide': 2, nan: 6}, ('extras1_runs', 'max'): {'Overstep': 1, 'Penalty': 7, 'byes': 4, 'legbyes': 3, 'other': 5, 'wide': 2, nan: 6}, ('extras1_runs', 'mean'): {'Overstep': 1.0, 'Penalty': 7.0, 'byes': 4.0, 'legbyes': 3.0, 'other': 5.0, 'wide': 2.0, nan: 6.0}, ('extras_2_runs', 'min'): {'Overstep': 0, 'Penalty': 0, 'byes': 0, 'legbyes': 0, 'other': 0, 'wide': 0, nan: 0}, ('extras_2_runs', 'max'): {'Overstep': 4, 'Penalty': 0, 'byes': 0, 'legbyes': 0, 'other': 4, 'wide': 0, nan: 1}, ('extras_2_runs', 'mean'): {'Overstep': 0.083, 'Penalty': 0.0, 'byes': 0.0, 'legbyes': 0.0, 'other': 0.133, 'wide': 0.0, nan: 0.0}}",
+      "over_ball_max": 13,
+      "innings_ball_max": 136,
+      "revised_matches": 23,
+      "super_over_matches": 6
+    }
+  }
+}

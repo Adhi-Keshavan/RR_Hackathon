@@ -1,0 +1,26 @@
+{
+  "status": "PASS_WITH_LIMITED_SCORE_DATA",
+  "model": "resource_only_v1",
+  "delivery_rows": 200999,
+  "pressure_score_rows": 195504,
+  "pressure_score_missing_rows": 5495,
+  "pressure_score_quantiles_min_p25_p50_p75_max": [
+    0.0,
+    13.97,
+    29.67,
+    48.33,
+    94.02
+  ],
+  "revised_match_rows": 4433,
+  "super_over_rows": 38,
+  "legal_clock_recovered_rows": 8498,
+  "legal_status_unresolved_rows": 265,
+  "clock_conflict_rows": 164,
+  "exact_score_before_rows": 31933,
+  "exact_target_before_rows": 231,
+  "exact_required_run_rate_rows": 20,
+  "exact_target_matches": 5,
+  "bye_legbye_rows_with_nonzero_runs_field": 1,
+  "feature_file": "outputs/pressure_features_20261113T144313963102Z_15132.csv",
+  "stable_file_updated": false
+}

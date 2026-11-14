@@ -1,0 +1,47 @@
+{
+  "status": "PASS_DESCRIPTIVE_ONLY",
+  "pressure_model": "resource_only_v1",
+  "pressure_quantile": 0.8,
+  "source_deliveries": 200999,
+  "non_ipl_t20_rows_excluded": 6985,
+  "super_over_rows_excluded": 26,
+  "unscored_core_ordinary_rows_excluded": 5473,
+  "ambiguous_extra_rows_excluded": 244,
+  "same_batter_identity_rows_excluded": 0,
+  "analysis_delivery_rows": 188271,
+  "high_pressure_delivery_rows": 37765,
+  "ordinary_delivery_rows": 150506,
+  "pressure_balls_faced": 35807,
+  "players_with_pressure_balls": 678,
+  "players_with_both_windows": 426,
+  "known_dismissals": 10116,
+  "non_striker_dismissals_credited": 252,
+  "wickets_missing_dismissed_player_id": 1,
+  "thresholds": [
+    {
+      "competition_group": "IPL",
+      "innings": 1,
+      "pressure_cutoff": 52.4
+    },
+    {
+      "competition_group": "IPL",
+      "innings": 2,
+      "pressure_cutoff": 50.8
+    },
+    {
+      "competition_group": "T20I",
+      "innings": 1,
+      "pressure_cutoff": 54.17
+    },
+    {
+      "competition_group": "T20I",
+      "innings": 2,
+      "pressure_cutoff": 52.0
+    }
+  ],
+  "files": {
+    "batting_by_context": "outputs/batting_by_context.csv",
+    "batting_pressure_vs_baseline": "outputs/batting_pressure_vs_baseline.csv",
+    "batting_player_summary": "outputs/batting_player_summary.csv"
+  }
+}
